@@ -38,7 +38,7 @@ export default function Workflows() {
                                     width={400}
                                     height={350}
                                     alt="İş Ekipmanları ve Periyodik Kontroller"
-                                    style={{objectFit: "cover"}}
+                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -72,7 +72,7 @@ export default function Workflows() {
                                     width={400}
                                     height={350}
                                     alt="Workflow 01"
-                                    style={{objectFit: "cover"}}
+                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -105,7 +105,7 @@ export default function Workflows() {
                                     width={400}
                                     height={350}
                                     alt="Basınçlı Kaplar"
-                                    style={{objectFit: "cover"}}
+                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -139,7 +139,7 @@ export default function Workflows() {
                                     width={400}
                                     height={350}
                                     alt="Kaldırma ve İletme Ekipmanları"
-                                    style={{objectFit: "cover"}}
+                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -172,7 +172,7 @@ export default function Workflows() {
                                     width={400}
                                     height={350}
                                     alt="Yangın ve Acil Durum Eğitimi"
-                                    style={{objectFit: "cover"}}
+                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -206,7 +206,7 @@ export default function Workflows() {
                                     width={400}
                                     height={350}
                                     alt="İş Hijyeni Ölçüm Test ve Analizler"
-                                    style={{objectFit: "cover"}}
+                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
