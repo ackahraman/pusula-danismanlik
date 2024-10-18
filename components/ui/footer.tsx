@@ -37,7 +37,7 @@ export default function Footer() {
                     <div className="col-span-1 lg:col-span-1 lg:text-left" data-aos="fade-right">  {/* Animasyon */}
                         <div className="text-sm">
                             <p className="mb-3 text-indigo-200/65">
-                                © 2024 pusuladanismanlikizmir.com. Tüm hakları saklıdır.
+                                © 2024 pusuladanismanlikizmir.com Tüm hakları saklıdır.
                             </p>
                             <ul className="inline-flex gap-1">
                                 <li>
