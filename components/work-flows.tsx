@@ -1,11 +1,3 @@
-import Image from "next/image";
-import PeriyodikKontrol from "/public/images/periyodik-kontrol.png";
-import BasincliKap from "/public/images/basinclikap.png";
-import KaldirmaEkipman from "/public/images/kaldirmaekipman.png";
-import ElektrikTesisatKontrol from "/public/images/elektrikTesisatKontrol.png";
-import AcilDurumEgitim from "/public/images/acilDurumEgitim.png";
-import IsHijyen from "/public/images/isHijyen.png";
-
 import Spotlight from "./spotlight";
 
 export default function Workflows() {
@@ -40,13 +32,13 @@ export default function Workflows() {
                         >
                             <div
                                 className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                                <Image
+                                <img
                                     className="inline-flex"
-                                    src={PeriyodikKontrol}
+                                    src="/images/periyodik-kontrol.png"
                                     width={400}
                                     height={350}
-                                    alt="Workflow 01"
-                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
+                                    alt="İş Ekipmanları ve Periyodik Kontroller"
+                                    style={{objectFit: "cover"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -74,13 +66,13 @@ export default function Workflows() {
                         >
                             <div
                                 className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                                <Image
+                                <img
                                     className="inline-flex"
-                                    src={BasincliKap}
+                                    src="/images/basinclikap.png"
                                     width={400}
                                     height={350}
                                     alt="Workflow 01"
-                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
+                                    style={{objectFit: "cover"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -107,13 +99,13 @@ export default function Workflows() {
                         >
                             <div
                                 className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                                <Image
+                                <img
                                     className="inline-flex"
-                                    src={KaldirmaEkipman}
+                                    src="/images/kaldirmaekipman.png"
                                     width={400}
                                     height={350}
-                                    alt="Workflow 01"
-                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
+                                    alt="Basınçlı Kaplar"
+                                    style={{objectFit: "cover"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -141,13 +133,13 @@ export default function Workflows() {
                         >
                             <div
                                 className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                                <Image
+                                <img
                                     className="inline-flex"
-                                    src={ElektrikTesisatKontrol}
+                                    src="/images/elektrikTesisatKontrol.png"
                                     width={400}
                                     height={350}
-                                    alt="Elektrik Test ve Kontrolleri"
-                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
+                                    alt="Kaldırma ve İletme Ekipmanları"
+                                    style={{objectFit: "cover"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -174,13 +166,13 @@ export default function Workflows() {
                         >
                             <div
                                 className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                                <Image
+                                <img
                                     className="inline-flex"
-                                    src={AcilDurumEgitim}
+                                    src="/images/acilDurumEgitim.png"
                                     width={400}
                                     height={350}
                                     alt="Yangın ve Acil Durum Eğitimi"
-                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
+                                    style={{objectFit: "cover"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
@@ -208,13 +200,13 @@ export default function Workflows() {
                         >
                             <div
                                 className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-gradient-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-                                <Image
+                                <img
                                     className="inline-flex"
-                                    src={IsHijyen}
+                                    src="/images/isHijyen.png"
                                     width={400}
                                     height={350}
                                     alt="İş Hijyeni Ölçüm Test ve Analizler"
-                                    style={{objectFit: "cover", width: "100%", height: "50%"}}
+                                    style={{objectFit: "cover"}}
                                 />
                                 <div className="p-6">
                                     <div className="mb-2">
